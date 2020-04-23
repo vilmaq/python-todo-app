@@ -6,9 +6,12 @@ import random
 import json
 import requests
 
+
 from datetime import datetime
 from random import randint
 from todos_store import Store
+
+from rook import auto_start
 
 app = flask.Flask(__name__, static_url_path='/static')
 
